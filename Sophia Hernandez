@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=dévice-width, initial-scale=1.0">
+    <title>Deadpool</title>
+</head>
+<body>
+    <style>
+       body,html{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        }
+        .deadpool{
+            position: relative;
+            width:50%;
+            height:75%;
+            background:url('deadpool.jpg') no-repeat center center/cover;
+            opacity: 80%;
+            left: 100px;
+            top: 50px;
+        }
+        .texto-presentacion{
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(146, 13, 13);
+            text-align: center;
+        }
+        .circulo{
+            
+        }
+        .cuadrado{
+            height: 200px; 
+            width: 200px; 
+            background-color:red;
+            position: absolute;
+        }
+        .ojos{
+            display: block; 
+            width: 50px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50% 50% 50% 50% / 60% 60% 60% 60%; 
+            position: relative;
+        }
+        .triangulo-normal{
+            width: 0; 
+            height: 0;
+            border-left: 40px solid transparent; 
+            border-right: 40px solid transparent; 
+            border-bottom: 80px solid black;
+        }
+        .trianguloizquierda{
+            width: 0; 
+            height: 0; 
+            border-top: 40px solid transparent;
+            border-right: 40px solid-Oblack; 
+            border-bottom: 40px solid transparent;
+        }
+        .elipse{
+            width: 50px;
+            height: 100px; 
+            background-color: black;
+            border: 2px soLid white;
+            -moz-border-radius: 0 100px 100px 0;
+            -webkit-border-radius: 0 100px 100px 0;
+            border-radius: 0 100px 100px 0;
+        }
+        </style>
+        <div class="deadpool">
+            <div class="texto-presentacion">
+                <h1>Mi primer dibujo en CSS</h1>
+                <h2>Diseno por:Sophia Heranandez</h2>
+                <p>De la especialidad de programacion de 4 semestre del cetis 131</p>
+            </div>
+        </div>
+<div class="cuadrado" style="left: 150px; top:70px; border-radius: 50%;"></div>
+<div class="cuadrado" style="width: 100px; height:100px; left: 200px; top:250px; border-radius: 30%;"></div>
+<div class="ojos" style="top: -350px; left:250px"></div> 
+<div class="ojos" style="top: -450px; left:170px"></div> 
+<div class="cuadrado" style="height:20px; width: 20px; left: 190px; top:170px; border-radius: 50%; background-color: white;"></div> 
+<div class="cuadrado" style="height:20px; width: 20px; left: 260px; top: 170px; border-radius: 50%; background-color: white;"></div>
+<div class="elipse" style="left: 100px"></div>
+
+</div>
+        </div>
+    </body> 
+    </html >
+    </style>
+</body>
